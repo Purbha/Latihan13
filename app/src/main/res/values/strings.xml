@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Latihan13</string>
+    <string name="textView_Main_Film">Pilih Film</string>
+    <string name="imageView_Main_Banner">Main Banner</string>
+    <string name="textView_Main_Rating">Pilih Rating</string>
+    <string name="button_Main_Submit">Submit</string>
+    <string-array name="list_film">
+        <item>THE SOCIAL NETWORK</item>
+        <item>THE IMITATION GAME</item>
+    </string-array>
+    <string name="sinopsis1">
+        Film ini menceritakan tentang seorang pemuda bernama Mark Zuckerberg seorang mahasiswa
+        Harvard yang menciptakan Facebook dengan bantuan pihak-pihak lain. Film ini beralur
+        flashback antara ketika Mark dan rekan-rekannya sedang bersidang dalam kasus kepemilikan
+        Facebook dan sejarah penciptaan Facebook itu sendiri. Pada awalnya (tahun 2003) Mark
+        Zuckerbeg menciptakan Facemash, sebuah jejaring untuk pemulihan foto-foto yang diambil
+        dari ‘Facebook’ seluruh anggota asramanya. Pemilihan foto ini berkategorikan hot or not.
+        Yang menempatkan foto dua wanita berdampingan pada satu waktu dan meminta pengguna memilih
+        yang mana yang paling seksi. Salah satu temannya baiknya, Eduardo Saverin, membantu
+        dalam pencarian rumus yang penting untuk menyempurnakan pembuatan Facemash ini.
+        Namun karena Facemash ini Mark diadili dan dihukum oleh komite kampus dengan tuduhan
+        menembus keamanan kampus, melanggar hak cipta, dan melanggar privasi individu, dan
+        terancam dikeluarkan. Namun hukuman itu dibatalkan. Tak hanya hukuman dari komite kampus,
+        Mark pun dicela oleh beberapa wanita di kampusnya karena tindakan lancangnya. Pada satu
+        waktu, Mark dihampiri oleh Cameron Winklevoss dan Tyler Winklevoss dan dia dipertemukan
+        dengan satu rekannya lagi, Divya Narendra. Mereka bertiga mengungkapkan idenya untuk
+        menciptakan Harvardconnection.com. Mark sempat menyindir ide Winklevoss bersaudara
+        yang menurutnya tidak berbeda dengan friendster dan myspace. Tapi tawaran kerjasama
+        akhirnya diterima Mark.
+    </string>
+
+    <string name="sinopsis2">
+        The Imitation Game (2014) adalah sebuah film yang diangkat dari biografi Alan Mathison
+        Turing dimana tokoh ini berperan besar dalam memenangkan perang untuk sekutu pada perang
+        dunia kedua. Alan Turing ketika masa pecah perang dunia kedua bekerja sama dengan ahli
+        kriptoanalisis untuk memecahkan kode enigma, yaitu sebuah sandi atau kode yang digunakan
+        oleh jerman. Turing mempunyai peran penting dalam memecahkan kode enigma tersebut dan
+        merupakan salah satu dari sekian orang yang berpikir tentang komputer digital. Dalam The
+        Imitation Game (2014), tokoh Alan Turing diperankan oleh Benedict Cumberbatch yang
+        sebelumnya telah dikenal lewat serial Sherlock dan trilogy The Hobbit. Film ini dimulai
+        dengan Turing yang bekerjasama dengan ahli kriptoanalisis dengan dipimpin oleh Hugh
+        Alexander (Mathhew Goode). Turing yang memiliki ego serta cara berpikir sendiri memilih
+        untuk menyendiri dan membuat sebuah alat untuk memecahkan kode enigma ketimbang
+        menerjemahkan naskah kode enigma dalam satu hari dengan kemungkinan tak terhingga.
+        Adalah Stewart Menzies (Mark Strong) yang mempercayai alat Turing dapat bekerja dan
+        akhirnya memberikan donasi sebesar 100.000 poundsterling untuk menyelesaikan mesinnya.
+        Selain itu, Turing pun menggantikan Hugh sebagai pemimpin tim. Langkah pertama pun
+        diambil dengan memecat orang yang dianggap tidak kompeten lalu mencari anggota baru
+        melalui teka-teki silang, yang kini dikenal dengan Test Turing. Joan Elizabeth Clarke
+        (Keira Knightley) yang berhasil memecahkan test turing dalam waktu 5 menit 43 detik
+        lebih cepat dari waktu yang diberikan, yaitu enam menit.
+    </string>
+    <string name="imageView_Detail_Pic">Detail Banner</string>
+    <string name="textView_Detail_Sinopsis">Sinopsis</string>
+    <string name="textView_Detail_Desc">Deskripsi</string>
+    <string name="textView_Detail_Rating">Rating</string>
+</resources>
