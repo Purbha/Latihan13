@@ -3,7 +3,6 @@ package com.ims_hr.latihan13;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.RatingBar;
@@ -40,16 +39,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Listen_B_Submit() {
-        B_Submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String Film = SP_Film.getSelectedItem().toString();
-                String Rating = Rating_Film();
-                Intent intent = new Intent(MainActivity.this,DetailActivity.class);
-                intent.putExtra(KEY_JUDUL,Film);
-                intent.putExtra(KEY_RATING,Rating);
-                startActivity(intent);
-            }
+        B_Submit.setOnClickListener(v -> {
+            String Film = SP_Film.getSelectedItem().toString();
+            String Rating = Rating_Film();
+            Intent intent = new Intent(MainActivity.this,DetailActivity.class);
+            intent.putExtra(KEY_JUDUL,Film);
+            intent.putExtra(KEY_RATING,Rating);
+            startActivity(intent);
         });
     }
 
