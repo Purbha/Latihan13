@@ -26,5 +26,10 @@
         <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
-
+    <style name="spinner_Style1" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
 </resources>

@@ -9,8 +9,7 @@ import android.widget.TextView;
 public class DetailActivity extends AppCompatActivity {
 
     ImageView IV_Pic;
-    TextView TV_Desc;
-    TextView TV_Rating;
+    TextView TV_Desc, TV_Rating;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +27,8 @@ public class DetailActivity extends AppCompatActivity {
 
     private void Set_Object() {
         Intent intent = getIntent();
-        String Judul = intent.getStringExtra("judul");
-        String Rating = intent.getStringExtra("rating");
+        String Judul = intent.getStringExtra(MainActivity.KEY_JUDUL);
+        String Rating = intent.getStringExtra(MainActivity.KEY_RATING);
         TV_Rating.setText("Rating: " + Rating);
         if(Judul.equals("THE SOCIAL NETWORK")) {
             IV_Pic.setImageResource(R.drawable.img_1);

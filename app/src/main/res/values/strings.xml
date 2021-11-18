@@ -54,4 +54,8 @@
     <string name="textView_Detail_Sinopsis">Sinopsis</string>
     <string name="textView_Detail_Desc">Deskripsi</string>
     <string name="textView_Detail_Rating">Rating</string>
+
+    <string name="spinner_Main_Film">Spinner Film</string>
+    <string name="ratingBar_Main_Rating">Rating Bar</string>
+
 </resources>

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayAdapter<CharSequence> arrayAdapter;
     Button B_Submit;
     RatingBar RB_Rating;
+    public static final String KEY_JUDUL = "judul", KEY_RATING = "rating";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 String Film = SP_Film.getSelectedItem().toString();
                 String Rating = Rating_Film();
                 Intent intent = new Intent(MainActivity.this,DetailActivity.class);
-                intent.putExtra("judul",Film);
-                intent.putExtra("rating",Rating);
+                intent.putExtra(KEY_JUDUL,Film);
+                intent.putExtra(KEY_RATING,Rating);
                 startActivity(intent);
             }
         });
